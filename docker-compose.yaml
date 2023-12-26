@@ -10,7 +10,7 @@ services:
     container_name: dd-grafana
     restart: unless-stopped
     ports:
-      - 3000:3000
+      - 9800:3000
     environment:
       - GF_AUTH_ANONYMOUS_ENABLED=true
       - GF_AUTH_ANONYMOUS_ORG_ROLE=Admin
